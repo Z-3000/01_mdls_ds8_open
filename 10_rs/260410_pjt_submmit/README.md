@@ -1,7 +1,7 @@
 # MovieLens AutoInt+ 기반 영화 추천 시스템
 
 ## 0. 파일 설명 개요
-
+- 일부 파일은 용량문제로 github 에 업로드 되지 못했습니다.
 | 목적 | 파일 |
 | --- | --- |
 | AutoInt+ 구현 확인 | `streamlit/autoint.py` |
@@ -46,13 +46,13 @@ streamlit run streamlit/show_st.py
 | 실험 결과 정렬 기준 | `valid_ndcg_at_10` 중심으로 best run 선택 |
 
 ## 2. 저장소 구조
+- 일부 파일은 용량문제로 github 에 업로드 되지 못했습니다.
 
 ```text
 .
 ├── 260409_rs_pjt_01_eda.ipynb
 ├── 260409_rs_pjt_02_prepro.ipynb
 ├── 260410_rs_pjt_03_train_tuned_reviewed.ipynb
-├── 260410_rs_pjt_03_train_tuned_reviewed_copy_code_anatomy.md
 ├── data/
 │   ├── movies.dat
 │   ├── ratings.dat
