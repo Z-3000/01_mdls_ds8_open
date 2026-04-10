@@ -1,0 +1,23 @@
+{
+  "version": "v2",
+  "target_confusion_axes": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "default_margin_threshold": 0.15,
+  "default_boost_ratio": 0.6,
+  "baseline_macro_f1": 0.9300681263419817,
+  "postprocessed_macro_f1_on_val": 0.9300681263419817,
+  "delta_f1_on_val": 0.0,
+  "note": "delta\ub294 \ub3d9\uc77c validation \uae30\uc900 \ucc38\uace0\uac12. \uc77c\ubc18\ud654 \uc131\ub2a5\uc740 LB\uc5d0\uc11c \ud655\uc778 \ud544\uc694."
+}

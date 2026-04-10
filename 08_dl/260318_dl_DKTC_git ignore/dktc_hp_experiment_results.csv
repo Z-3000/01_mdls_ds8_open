@@ -1,0 +1,11 @@
+exp_name,learning_rate,num_epochs,batch_size,weight_decay,warmup_ratio,lr_scheduler,label_smoothing,use_weighted_loss,train_loss,val_accuracy,val_f1_macro,val_f1_weighted,train_time_sec
+baseline,2e-05,3,16,0.01,0.1,linear,0.0,True,0.3308,0.9143,0.9147,0.915,113.4
+lr_1e-5,1e-05,3,16,0.01,0.1,linear,0.0,True,0.3947,0.9143,0.9138,0.9145,107.1
+lr_5e-5,5e-05,3,16,0.01,0.1,linear,0.0,True,0.3017,0.9164,0.916,0.9164,110.5
+epoch_5,2e-05,5,16,0.01,0.1,linear,0.0,True,0.235,0.9226,0.9221,0.9226,178.8
+wd_0,2e-05,3,16,0.0,0.1,linear,0.0,True,0.3284,0.9257,0.9256,0.926,107.1
+wd_0.1,2e-05,3,16,0.1,0.1,linear,0.0,True,0.3243,0.9236,0.9233,0.924,106.9
+cosine,2e-05,3,16,0.01,0.1,cosine,0.0,True,0.3267,0.9216,0.9212,0.9218,109.9
+no_warmup,2e-05,3,16,0.01,0.0,linear,0.0,True,0.2746,0.9267,0.926,0.9267,107.3
+smooth_0.1,2e-05,3,16,0.01,0.1,linear,0.1,False,0.6133,0.9257,0.926,0.9262,110.2
+no_weight,2e-05,3,16,0.01,0.1,linear,0.0,False,0.3275,0.9247,0.9245,0.925,108.7

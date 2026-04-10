@@ -1,0 +1,3 @@
+model,accuracy,f1_macro,f1_weighted,wrong_count
+focal_epoch_5 (단일 5-class),0.9298,0.9301,0.9302,68
+two_stage_pipeline_recalc,0.9226006191950464,0.9219617238041865,0.9225628104088681,75

@@ -1,0 +1,42 @@
+# === core numeric / data ===
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.16.3
+
+# === visualization ===
+matplotlib==3.10.0
+seaborn==0.13.2
+plotly==5.24.1
+
+# === machine learning ===
+scikit-learn==1.6.1
+xgboost==3.2.0
+lightgbm==4.6.0
+catboost==1.2.7
+
+# === time series / stats ===
+statsmodels==0.14.6
+prophet==1.3.0
+tsfresh==0.21.1
+
+# === NLP ===
+spacy==3.8.11
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+sentencepiece==0.2.1
+sentence-transformers==5.2.3
+
+# === deep learning (PyTorch 계열) ===
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# === Jupyter / notebook 환경 ===
+ipykernel==6.17.1
+jupyterlab==4.3.5
+notebook==6.5.7
+
+# === 유틸/플로우 ===
+tqdm==4.67.3
+pyarrow==18.1.0
+python-dotenv==1.2.1
+rich==13.9.4

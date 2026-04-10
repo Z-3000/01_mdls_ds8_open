@@ -1,0 +1,6 @@
+exp_name,learning_rate,num_epochs,batch_size,weight_decay,warmup_ratio,lr_scheduler,label_smoothing,loss_type,focal_gamma,train_loss,val_accuracy,val_f1_macro,val_f1_weighted,train_time_sec
+kfold_1of5,2e-05,3,16,0.1,0.1,linear,0.0,weighted_ce,,0.3301,0.9268,0.9263,0.9265,106.9
+kfold_2of5,2e-05,3,16,0.1,0.1,linear,0.0,weighted_ce,,0.3339,0.9226,0.9227,0.9227,107.7
+kfold_3of5,2e-05,3,16,0.1,0.1,linear,0.0,weighted_ce,,0.3485,0.9501,0.95,0.95,106.3
+kfold_4of5,2e-05,3,16,0.1,0.1,linear,0.0,weighted_ce,,0.323,0.9206,0.9208,0.921,110.4
+kfold_5of5,2e-05,3,16,0.1,0.1,linear,0.0,weighted_ce,,0.3226,0.9236,0.9237,0.9238,105.7

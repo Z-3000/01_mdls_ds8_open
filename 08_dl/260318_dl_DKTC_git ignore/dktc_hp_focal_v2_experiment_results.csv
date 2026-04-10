@@ -1,0 +1,14 @@
+exp_name,learning_rate,num_epochs,batch_size,weight_decay,warmup_ratio,lr_scheduler,label_smoothing,loss_type,focal_gamma,train_loss,val_accuracy,val_f1_macro,val_f1_weighted,train_time_sec
+baseline,2e-05,3,16,0.01,0.1,linear,0.0,weighted_ce,,0.3218,0.9185,0.9184,0.9188,115.4
+lr_1e-5,1e-05,3,16,0.01,0.1,linear,0.0,weighted_ce,,0.384,0.9133,0.9132,0.9138,114.8
+lr_5e-5,5e-05,3,16,0.01,0.1,linear,0.0,weighted_ce,,0.3101,0.9154,0.9151,0.9154,112.7
+epoch_5,2e-05,5,16,0.01,0.1,linear,0.0,weighted_ce,,0.2332,0.9216,0.9214,0.9218,190.4
+wd_0,2e-05,3,16,0.0,0.1,linear,0.0,weighted_ce,,0.3187,0.9236,0.9234,0.9239,114.8
+wd_0.1,2e-05,3,16,0.1,0.1,linear,0.0,weighted_ce,,0.3162,0.9278,0.9275,0.928,119.4
+cosine,2e-05,3,16,0.01,0.1,cosine,0.0,weighted_ce,,0.3116,0.9236,0.9233,0.9238,117.9
+no_warmup,2e-05,3,16,0.01,0.0,linear,0.0,weighted_ce,,0.2643,0.9185,0.9179,0.9186,113.0
+smooth_0.1,2e-05,3,16,0.01,0.1,linear,0.1,ce,,0.6049,0.9226,0.9223,0.9228,114.7
+no_weight,2e-05,3,16,0.01,0.1,linear,0.0,ce,,0.3161,0.9267,0.9265,0.927,116.8
+focal_g1.0,2e-05,3,16,0.01,0.1,linear,0.0,focal,1.0,0.2062,0.9226,0.9224,0.923,110.5
+focal_g2.0,2e-05,3,16,0.01,0.1,linear,0.0,focal,2.0,0.1486,0.9257,0.9253,0.9259,113.8
+focal_g3.0,2e-05,3,16,0.01,0.1,linear,0.0,focal,3.0,0.1102,0.9247,0.9243,0.9249,109.2

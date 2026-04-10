@@ -1,0 +1,52 @@
+{
+  "stage1": {
+    "task": "binary (일반대화 vs 괴롭힘)",
+    "epochs": 3,
+    "lr": 2e-05,
+    "loss": "CrossEntropy (weighted)",
+    "accuracy": 0.999,
+    "f1_macro": 0.9984,
+    "recall_harm": 1.0,
+    "recall_normal": 0.995,
+    "harm_miss_count": 0,
+    "train_time_sec": 115.5
+  },
+  "stage2": {
+    "task": "4-class harm (협박/갈취/직장내괴롭힘/기타괴롭힘)",
+    "epochs": 5,
+    "lr": 2e-05,
+    "loss": "Focal Loss (gamma=2.0, class_weight=True)",
+    "f1_macro_standalone": 0.9037,
+    "train_time_sec": 167.5
+  },
+  "pipeline_5class": {
+    "accuracy": 0.9226,
+    "f1_macro": 0.922,
+    "f1_weighted": 0.9226,
+    "class_f1": {
+      "협박": 0.8934,
+      "갈취": 0.8843,
+      "직장내괴롭힘": 0.949,
+      "기타괴롭힘": 0.8856,
+      "일반대화": 0.9975
+    },
+    "wrong_count": 75
+  },
+  "reference_focal_epoch_5": {
+    "model_name": "focal_epoch_5 (단일 5-class)",
+    "accuracy": 0.9298,
+    "f1_macro": 0.9301,
+    "f1_weighted": 0.9302,
+    "f1_협박": 0.9186,
+    "f1_갈취": 0.899,
+    "f1_직장내괴롭힘": 0.9634,
+    "f1_기타괴롭힘": 0.8794,
+    "f1_일반대화": 0.9899,
+    "오분류_건수": 68
+  },
+  "criteria_met": 1,
+  "fail_flags": [
+    "Macro F1 0.9220 < 0.9251"
+  ],
+  "total_train_time_sec": 283.0
+}

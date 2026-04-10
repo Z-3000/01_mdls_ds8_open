@@ -1,0 +1,2 @@
+﻿orig_index,text,label,label_name,n_turns,total_chars,true_label_id,pred_label_id,true_label,pred_label,is_wrong,error_pair
+917,대체 제게 왜 그러세요 ? [턴] 순이씨가 좋아서 그렇죠 [턴] 왜 그러세요 불쾌 합니다 [턴] 좋아서 그래요 [턴] 자꾸 쫓아다니시면 저는 너무 힘들어요 [턴] 내일도 올게요 이시간에요 [턴] 절대 오지 마세요 [턴] 그건 제마음입니다 [턴] 괴롭히지 마세요 [턴] 저는 기다릴겁니다,3,기타 괴롭힘 대화,10.0,114.0,3,2,기타괴롭힘,직장내괴롭힘,True,기타괴롭힘 → 직장내괴롭힘

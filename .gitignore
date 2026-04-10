@@ -1,0 +1,52 @@
+# === 대용량 데이터/모델 파일 ===
+*.joblib
+*.h5
+*.pkl
+*.csv.gz
+
+# fraud.csv (경로 두 가지 모두 커버)
+03_unp_needs_cleaning/260113_unp_05_Main_Quest/fraud.csv
+03_unp_데이터셋 정리 필요/260113_unp_05_Main_Quest/fraud.csv
+
+# [추가] 음악 아티스트 추천 프로젝트 데이터
+10_rs/260406_음악 아티스트 추천/
+
+# 모델 저장 디렉토리
+**/models/
+
+# 대용량 원시 데이터
+07_dataton_raw/
+08_dl/260318_dl_DKTC/00_data/
+08_dl/260318_dl_DKTC/00_data_bak/
+08_dl/260318_dl_DKTC/00_data_csv/
+
+# 딥러닝 미니프로젝트
+08_dl/260305_dl_mini-project_rock scissor paper/venv
+08_dl/260305_dl_mini-project_rock scissor paper/test
+08_dl/260305_dl_mini-project_rock scissor paper/rock_scissor_paper
+08_dl/60318_dl_DKTC
+08_dl/260317_dl_hugging face
+08_dl/260317_dl_hugging face/Baseline_add.ipynb:2115
+09_llm
+10_rs/260409_pjt_submmit
+
+# 데이터 디렉토리 (프로젝트 무관 일괄 제외)
+**/00_data/
+**/00_data_csv/
+**/00_data_bak/
+**/data/
+**/model/
+
+
+# 학습 결과/체크포인트
+**/results*/
+**/checkpoint-*/
+
+# 가상환경
+venv/
+.env
+.env/
+.env/
+.venv/
+env/
+env_setup_py3.11.bat
