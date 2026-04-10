@@ -1,7 +1,6 @@
 # MovieLens AutoInt+ 기반 영화 추천 시스템
 
-## 0. 파일 설명 개요
-- 일부 파일은 용량문제로 github 에 업로드 되지 못했습니다.
+## 0. 파일 설명 개요 (일부 파일은 용량문제로 github 에 업로드 되지 못했습니다.)
 | 목적 | 파일 |
 | --- | --- |
 | AutoInt+ 구현 확인 | `streamlit/autoint.py` |
